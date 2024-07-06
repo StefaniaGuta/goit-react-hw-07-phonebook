@@ -1,0 +1,23 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list li{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    list-style: none;
+    size: 18px;
+  }
+
+.button{
+  padding: 4px 8px;
+  font: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 80px;
+  margin-left: 10px;
+}
